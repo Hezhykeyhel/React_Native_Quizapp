@@ -76,9 +76,9 @@ const Quiz = ({navigation}) => {
           </TouchableOpacity>
       </View>
       <View style={styles.bottomContainer}>
-          <TouchableOpacity style={styles.button}>
+          {/* <TouchableOpacity style={styles.button}>
               <Text style={styles.buttonText}>PREV</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
           {/* <TouchableOpacity onPress={()=>navigation.navigate("Result")} style={styles.button}>
               <Text style={styles.buttonText}>END</Text>
           </TouchableOpacity> */}
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     bottomContainer:{
         marginBottom: 12,
         paddingVertical: 16,
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         flexDirection:'row'
     },
     parent:{
